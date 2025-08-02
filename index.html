@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about accessible and SEO-friendly web design using HTML5 semantic tags." />
+  <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web design, beginner" />
+  <meta name="author" content="Your Name" />
+  <title>Accessible & SEO-Friendly HTML5 Page</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to Semantic Web Design</h1>
+    <p>Your guide to accessible and SEO-optimized HTML5 structure.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#benefits">Benefits</a></li>
+      <li><a href="#tips">Tips</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content" role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Semantic HTML</h2>
+      <p>Semantic HTML uses meaningful tags to structure content, making it more understandable to both users and search engines.</p>
+    </section>
+
+    <section id="benefits" aria-labelledby="benefits-heading">
+      <h2 id="benefits-heading">Benefits of Semantic Markup</h2>
+      <ul>
+        <li>Improves accessibility for screen readers</li>
+        <li>Enhances SEO by providing clearer content hierarchy</li>
+        <li>Makes code more readable and maintainable</li>
+      </ul>
+    </section>
+
+    <section id="tips" aria-labelledby="tips-heading">
+      <h2 id="tips-heading">Best Practices</h2>
+      <article>
+        <h3>Use Proper Heading Levels</h3>
+        <p>Headings should follow a logical order: start with <code>&lt;h1&gt;</code>, then <code>&lt;h2&gt;</code>, and so on.</p>
+      </article>
+      <article>
+        <h3>Include Metadata for SEO</h3>
+        <p>Use <code>&lt;meta&gt;</code> tags for description, keywords, and author to improve your site's discoverability.</p>
+      </article>
+      <article>
+        <h3>Provide Accessible Navigation</h3>
+        <p>Use <code>aria-label</code> and role attributes to help users using assistive technologies navigate your site.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        Email: <a href="mailto:info@example.com">info@example.com</a><br />
+        Phone: +254 712345678
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Semantic Web Design. All rights reserved.</p>
+  </footer>
+</body>
+</html>
